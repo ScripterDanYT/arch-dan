@@ -39,3 +39,5 @@ elif pacman -Qi lightdm &>/dev/null; then
 else
   echo "no display manager (sddm or lightdm) found."
 fi
+
+useradd -m -G wheel dan
