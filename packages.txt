@@ -4,3 +4,4 @@ sddm
 nvidia
 kitty
 nano
+hyprland
