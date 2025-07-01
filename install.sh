@@ -40,4 +40,8 @@ else
   echo "no display manager (sddm or lightdm) found."
 fi
 
-useradd -m -G wheel dan
+read -p "do you want to reboot now? [y/n]: " answer
+case "$answer" in
+  [Yy]* ) echo "rebooting..."; sudo reboot ;;
+  * ) echo "reboot canceled." ;;
+esac
