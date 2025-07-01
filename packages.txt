@@ -1,0 +1,6 @@
+firefox
+cinnamon
+sddm
+nvidia
+kitty
+nano
